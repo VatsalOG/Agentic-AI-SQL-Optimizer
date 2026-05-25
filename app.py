@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 # 1. The Cockpit (Frontend UI)
 st.title("🚀 AI Database Query Optimizer")
